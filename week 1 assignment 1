@@ -1,0 +1,62 @@
+                            
+			// Write algorithm that print table of any number, e.g 7
+  package com.company;
+import java.util.Scanner;
+public class Main {
+
+
+
+    public static void main(String[] args) {
+	// write your code here
+        Scanner sc =new Scanner(System.in);
+        int no = sc.nextInt();
+        for(int i = 1;i<=10;i++)
+        {
+            System.out.println(no+"x"+i+"="+no*i);
+        }
+    }
+}
+            
+			      //Write algorithm that Print sum of N Numbers
+			      package com.company;
+import java.util.Scanner;
+public class Main {
+
+
+
+    public static void main(String[] args) {
+	// write your code here
+        Scanner sc =new Scanner(System.in);
+        int no = sc.nextInt();
+        int sum = 0;
+        for(int i =1;i<=no;i++)
+        {
+            sum += i;
+        }
+        System.out.println(sum);
+    }
+}                     
+                                 // Write algorithm to print all odd numbers backward from 99 t0  1
+	package com.company;
+import java.util.Scanner;
+public class Main {
+
+
+
+    public static void main(String[] args) {
+	
+        for(int i =99;i>=1;i--)
+        {
+            if(i%2 != 0)
+            {
+                System.out.print(i+" ");
+            }
+        }
+       
+    }
+}                                         
+
+
+
+
+  
